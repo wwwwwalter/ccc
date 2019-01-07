@@ -1,5 +1,6 @@
 *.exe
 *.[ao]
+*.out
 *.layout
 *_private.h
 *_private.rc
