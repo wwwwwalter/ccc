@@ -20,6 +20,8 @@ int main(int argc, char** argv)
 	num3.uprint();
 	num3 = num1-num2;
 	num3.uprint();
-	
+    cout << "================="<<endl;
+    ComplexNumber num4;
+    num4.uprint();    
 	return 0;
 }

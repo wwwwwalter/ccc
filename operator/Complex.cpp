@@ -14,6 +14,10 @@ void ComplexNumber::uprint(void)const
 {
 	cout << real <<"+"<<image<<"i"<<endl;
 }
+ComplexNumber::ComplexNumber(void)
+{
+    cout << "ComplexNumber::ComplexNumber()"<<endl;
+}
 ComplexNumber::ComplexNumber(const int &real,const int &image)
 	:real(real),image(image)
 {

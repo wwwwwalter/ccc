@@ -8,6 +8,7 @@ public:
 	int getReal()const;
 	int getImage()const;
 	void uprint()const;
+    ComplexNumber();
 	ComplexNumber(const int& real,const int& image);
 	//运算符重载为类成员函数
 	ComplexNumber operator-(const ComplexNumber&num2);
