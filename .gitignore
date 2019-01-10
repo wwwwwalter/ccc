@@ -6,3 +6,5 @@
 *_private.rc
 *_private.res
 *Makefile.win
+*doxyfile
+*.depend
